@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face{
     font-family: montserrat;
-    src: url(../_fontes/Montserrat-Regular.ttf);
+    src: url(../fontes/Montserrat-Regular.ttf);
 }
 @font-face{
     font-family: NotoSansJP;
-    src: url(../_fontes/NotoSansJP-Regular.otf);
+    src: url(../fontes/NotoSansJP-Regular.otf);
 }
 
 div#view {

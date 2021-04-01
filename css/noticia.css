@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face{
     font-family: montserrat;
-    src: url(../_fontes/Montserrat-Regular.ttf);
+    src: url(../fontes/Montserrat-Regular.ttf);
 }
 @font-face{
     font-family: NotoSansJP;
-    src: url(../_fontes/NotoSansJP-Regular.otf);
+    src: url(../fontes/NotoSansJP-Regular.otf);
 }
 
 div#view {
@@ -68,86 +68,63 @@ ul.menus{
     color: #00008B;
 }
  
-#menu h1 {
+#menu h2 {
     visibility: hidden;
 }
 
 
-/* NOTICIAS SECUNDÁRIAS --------------------------------------------------------------------------*/
-div#outras_noticias {
-    position: relative;
-    padding-top: 120px;
-    width: 70%;
-}
-#outras_noticias figure {
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-figure.noticias2 img {
-    float: left;
-    height: 100%;
-    width: 450px;
-    margin-right: 10px;
-}
-.noticias2 a {
-    text-decoration: none;
-}
-.noticias2 h1 {
-    color: #f42300;
-    font-family: sans-serif;
-    font-size: 20px;
-    margin-bottom: 0;
-}
-.noticias2:hover h1{
-    color: #B22222;
-}
-.noticias2 p {
-    color:#10004aff;
-    text-shadow: 0.2px 0.2px blue;
+/* FORMATAÇÃO DO CORPO DA NOTICIA --------------------------------------------------*/
+div#noticia {
+    background-color: #eee7ffff;
+    padding-top: 100px;
+    font-family: montserrat sans-serif;
     text-align: justify;
-    font-family: NotoSansJP, sans-serif;
-    font-size: 16px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#noticia figure {
+    float: left;
+    margin-left: 0;
+    margin-bottom: -10px;
+    margin-right: 25px;
+}
+#noticia figcaption {
+    visibility: hidden;
+}
+#noticia h1 {
+    color: #f42300;
+    padding-top: 7px;
+}
+#noticia p {
     letter-spacing: 1px;
-    margin-top: 0;
+    font-size: 18px;
 }
-
-
-/* PUBLICIDADES LATERAIS -------------------------------------------------------------- */
-aside#propaganda1 {
-    position: absolute;
-    top: 137px;
-    right: 40px;
+#noticia em {
+    float: right;
+    margin: 7px 7px 7px 30px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    background-color: white;
     width: 20%;
-    padding: 0;
+    padding: 20px;
+    font-size: 22px;
 }
-#propaganda1 figure {
-    padding: 0;
-    margin: 0;
-}
-#propaganda1 img {
+#noticia time {
+    position: relative;
+    display: inline-block;
     width: 100%;
-    right: 100%;
-    margin: 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-aside#propaganda2 {
-    display: block;
-    position: absolute;
-    top: 672px;
-    right: 40px;
-    width: 20%;
-    padding: 0;
-}
-#propaganda2 figure {
-    padding: 0;
-    margin: 0;
-}
-#propaganda2 img {
-    width: 100%;
-    right: 100%;
-    margin: 0;
-}
 
 
 /* RODAPÉ -------------------------------------------------------------------- */
