@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face{
+    font-family: montserrat;
+    src: url(../_fontes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: NotoSansJP;
+    src: url(../_fontes/NotoSansJP-Regular.otf);
+}
+
+div#view {
+    background-color: #eee7ffff;
+}
+
+
+/* BLOCO PARA MENU E LOGO --------------------------------------------------------*/
+header#cabecalho {
+    margin-top: 0;
+    margin-bottom: 60px;
+    display:block;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    z-index: 2;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#cabecalho input, label {
+    display: none;
+}
+
+img#logo {
+    float:left;
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+ul.menus{
+    position:relative;
+    top: -46px;
+}
+ .menus li {
+     float:left;
+     margin-right: 30px;
+     list-style-type: none;
+ }
+
+ .menus a {
+    font-size: 22px;
+    font-family: montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(25,25,112,0.9);
+ }
+
+.menus a:hover {
+    color: rgba(178,34,34,0.9);
+}
+.menus a:active {
+    color: #00008B;
+}
+ 
+#menu h1 {
+    visibility: hidden;
+}
+
+
+/* FORMATAÇÃO DO FORMULÁRIO --------------------------------------------------*/
+div#form {
+    padding-top: 130px;
+    margin-bottom: 40px;
+}
+#form h2{
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+#form form {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: white;
+}
+#form legend {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #f42300;
+}
+#form label {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-weight: 900;
+}
+#form .radio {
+    font-weight: 500;
+}
+#form input {
+    margin-bottom: 20px;
+}
+#form #texto {
+    margin-left: 40%;
+}
+#form textarea {
+    position: relative;
+    width: 99%;   
+}
+#form #submeter {
+    position: relative;
+    margin-top: 25px;
+    left: 45%;
+    margin-bottom: 0;
+}
+
+
+
+/* RODAPÉ -------------------------------------------------------------------- */
+div#rodape {
+    position: relative;
+    border-top-color: red;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background-color: white;
+    height: 150px;
+}
+#rodape address {
+    position: relative;
+    width: 250px;
+    left: 40%;
+    top: -17px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(25,25,112);
+    font-weight: bold;
+}
+#rodape p {
+    position: relative;
+    font-size: 20px;
+    width: 250px;
+    top: 5px;
+    margin-bottom: -30px;
+    left: 20px;
+    color: red;
+    font-weight: bold;
+}
+#rodape a {
+    position: relative;
+    left: 20px;
+    top: 32px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(25,25,112);
+}

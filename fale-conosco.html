@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" name="viewport" cotent="width=device-width">
+        <title>Portal News - Fale Conosco</title>
+        <link rel="icon" href="_imagens/logo.png">
+
+        <link rel="stylesheet" type="text/css" href="_css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="_css/formulario.css" media="(min-width:800px)">
+        <link rel="stylesheet" type="text/css" href="_css/formulario-mobile.css" media="(max-width:800px)">
+    </head>
+
+
+    <body>
+        <div id="view">
+
+            <header id="cabecalho">
+
+                <a href="index.html"><img id="logo" src="_imagens/logo.png" alt="Portal News"></a>
+
+                <input type="checkbox" id="icone_menu">
+                <label for="icone_menu">&#9776;</label>
+
+
+                <nav id="menu">
+                    <h1 id="descricao_menu">Menu de navegação no site, menu principal</h1>
+                    <ul class="menus">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="politica.html">Política</a></li>
+                        <li><a href="internacional.html">Internacional</a></li>
+                        <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+            <div id="form">
+                <form method="POST" action="">
+                    <fieldset>
+                        <legend>Deixe a gente saber sua opinião</legend>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome Completo"><br>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="fulano@news.com.br"><br>
+                        <h2>Sexo:</h2><br>
+                        <label class="radio" id="radio-primeiro" for=sexo_masculino>Masculino</label><input type="radio" id="sexo_masculino" name="sexo">
+                        <label class="radio" for="sexo_feminino">Feminino</label><input type="radio" id="sexo_feminino" name="sexo">
+                        <label class="radio" for="sexo_nao_declarado">Não declarar</label><input type="radio" id="sexo_não_declarado" name="sexo"><br>
+                        <label id="range" for="satisfacao">Nível de satisfação com o site</label>
+                        <b>0</b><input type="range" id="satisfacao" name="satisfacao" min="0" max="10" step="1" value="5"><b>10</b><br>
+                        <label id="texto" for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" placeholder="Escreva aqui sua mensagem" cols="50" rows="8"></textarea><br>
+                        <input type="submit" id="submeter" valeu="ENVIAR">
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div id="rodape">
+                <footer>
+                    <p>Desenvolvido por:</p>
+                    <a href="https://br.linkedin.com/public-profile/in/ualas-lima-damac%C3%AAno-5b6259113?challengeId=AQGVo2S9rsRZIgAAAXe3f98qpFQWntc77LEiMipeoUifXMk9LHCuKZnWsmFwMHBdEuWf0k24D-jG2RhxWccI62DADnIdomtiig&submissionId=07d0a6db-bafb-6416-6ccd-f7d9d9ab7538" target="_blank">Ualas Lima Damacêno</a>
+
+                    <address>
+                        Fantástica City<br>
+                        Rua dos Sonhos - Nº 227<br>
+                        Fone (00) 3321-4562<br>
+                        Portal News &copy;    
+                    </address>
+                </footer>
+            </div>
+
+            
+        </div>
+    </body>
+
+</html>

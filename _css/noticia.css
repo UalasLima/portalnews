@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@font-face{
+    font-family: montserrat;
+    src: url(../_fontes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: NotoSansJP;
+    src: url(../_fontes/NotoSansJP-Regular.otf);
+}
+
+div#view {
+    background-color: #eee7ffff;
+}
+
+
+/* BLOCO PARA MENU E LOGO --------------------------------------------------------*/
+header#cabecalho {
+    margin-top: 0;
+    margin-bottom: 60px;
+    display:block;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    z-index: 2;
+    border-bottom-color: red;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#cabecalho input, label {
+    display: none;
+}
+
+img#logo {
+    float:left;
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+ul.menus{
+    position:relative;
+    top: -46px;
+}
+ .menus li {
+     float:left;
+     margin-right: 30px;
+     list-style-type: none;
+ }
+
+ .menus a {
+    font-size: 22px;
+    font-family: montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(25,25,112,0.9);
+ }
+
+.menus a:hover {
+    color: rgba(178,34,34,0.9);
+}
+.menus a:active {
+    color: #00008B;
+}
+ 
+#menu h2 {
+    visibility: hidden;
+}
+
+
+/* FORMATAÇÃO DO CORPO DA NOTICIA --------------------------------------------------*/
+div#noticia {
+    background-color: #eee7ffff;
+    padding-top: 100px;
+    font-family: montserrat sans-serif;
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#noticia figure {
+    float: left;
+    margin-left: 0;
+    margin-bottom: -10px;
+    margin-right: 25px;
+}
+#noticia figcaption {
+    visibility: hidden;
+}
+#noticia h1 {
+    color: #f42300;
+    padding-top: 7px;
+}
+#noticia p {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+#noticia em {
+    float: right;
+    margin: 7px 7px 7px 30px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    font-size: 22px;
+}
+#noticia time {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+/* RODAPÉ -------------------------------------------------------------------- */
+div#rodape {
+    position: relative;
+    border-top-color: red;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background-color: white;
+    height: 150px;
+}
+#rodape address {
+    position: relative;
+    width: 250px;
+    left: 40%;
+    top: -17px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(25,25,112);
+    font-weight: bold;
+}
+#rodape p {
+    position: relative;
+    font-size: 20px;
+    width: 250px;
+    top: 5px;
+    margin-bottom: -30px;
+    left: 20px;
+    color: red;
+    font-weight: bold;
+}
+#rodape a {
+    position: relative;
+    left: 20px;
+    top: 32px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(25,25,112);
+}
