@@ -28,7 +28,7 @@ header#cabecalho {
     border-bottom-style: solid;
 }
 
-#cabecalho input, label {
+#cabecalho input, #cabecalho label {
     display: none;
 }
 
