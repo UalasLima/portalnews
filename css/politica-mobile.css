@@ -87,7 +87,6 @@ input#icone_menu:checked ~ nav { /* o checked é selecionaod por click --- o sel
     word-spacing: 5px;
 }
 #cabecalho a:active {
-    font-size: 30px;
     color: #CD0000;
 }
 
